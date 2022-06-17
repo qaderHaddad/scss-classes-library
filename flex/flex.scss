@@ -1,0 +1,90 @@
+.f-col{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.f-row{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.f-reverse{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+
+.a-center{
+    align-items: center !important;
+}
+
+.a-start{
+    align-items: flex-start !important;
+}
+
+.a-end{
+    align-items: flex-end !important;
+}
+
+.as-start{
+    align-self: flex-start !important;
+}
+
+.as-center{
+    align-self: center !important;
+}
+
+.as-end{
+    align-self: flex-end !important;
+}
+
+.j-center{
+    justify-content: center !important;
+}
+
+.js-center{
+    justify-self: center !important;
+}
+
+.j-start{
+    justify-content: flex-start !important;
+}
+
+.js-start{
+    justify-self: start !important;
+}
+
+.j-end{
+    justify-content: flex-end !important;
+}
+
+.j-between{
+    justify-content: space-between !important;
+}
+
+.j-even{
+    justify-content: space-evenly !important;
+}
+
+.j-around{
+    justify-content: space-around !important;
+}
+
+.f-wrap{
+    flex-wrap: wrap !important;
+}
+
+.grow-1{
+  flex-grow: 1;
+}
+
+.mobile-f-col{
+    display: flex !important;
+    flex-direction: row !important;
+}
+@media only screen and(max-width: 900px) {
+
+    .mobile-f-col{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}

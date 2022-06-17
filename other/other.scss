@@ -1,0 +1,241 @@
+.d-block {
+  display: block !important;
+}
+
+.d-inline{
+  display: inline !important;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.pos-relative {
+  position: relative !important;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.bot-0px {
+  bottom: 0px;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.scroll {
+  overflow: scroll !important;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+.scroll-x {
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+}
+
+.scroll-y {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.auto-scroll {
+  overflow: auto !important;
+}
+
+.auto-scroll-x {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
+.auto-scroll-y {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.bxs-black {
+  box-shadow: 1px 1px 4px -2px rgba(0, 0, 0, 0.5) !important;
+}
+
+.bxs-none {
+  box-shadow: none !important;
+}
+
+.txt-link {
+  width: auto;
+  color: #2962ff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.txt-light {
+  font-weight: lighter;
+}
+
+.no-border {
+  border: 0;
+}
+
+.primary-border{
+  border: 1px solid #84A7BC;
+}
+
+.no-outline {
+  outline: none;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.txt-start {
+  text-align: start;
+}
+
+.txt-end {
+  text-align: end;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+.txt-bolder {
+  font-weight: bolder;
+}
+
+.o-darkgray {
+  border: 3px solid darkgray;
+}
+
+.o-lightgray {
+  border: 1px solid lightgray;
+}
+
+.o-primary-1px {
+  border: 1px solid var(--background-primary);
+}
+
+.o-primary-2px {
+  border: 2px solid var(--background-primary);
+}
+
+.ot-lightgray-1px {
+  border-top: 1px solid lightgray;
+}
+
+.ob-lightgray-1px {
+  border-bottom: 1px solid lightgray;
+}
+
+.ob-lightgray {
+  border-bottom: 2px solid lightgray;
+}
+
+.ot-lightgray {
+  border-top: 1px solid lightgray;
+}
+
+.r-link:focus {
+  outline: 0;
+}
+
+.br-2px {
+  border-radius: 2px;
+}
+
+.br-5px {
+  border-radius: 5px;
+}
+
+.br-10px {
+  border-radius: 10px;
+}
+
+.br-50p {
+  border-radius: 50%;
+}
+
+.o-dashed-1px {
+  border: dashed 1px #979797;
+}
+
+.fit-img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.fit-img-cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.br-25p {
+  border-radius: 25%/50%;
+}
+
+@for $i from 0 through 100 {
+  .br-#{$i}p {
+    border-radius: 1% * $i !important;
+  }
+
+  .br-#{$i}px {
+    border-radius: 1px * $i !important;
+  }
+}
+
+@for $i from 0 through 100 {
+  .w-transition-#{$i}s {
+    transition: width 1s * $i ease-out !important;
+  }
+}
+
+.divider {
+  border-bottom: 1px solid lightgray;
+}
+
+@for $i from -1000 through 1000 {
+  .post-#{$i}px {
+    top: 1px * $i !important;
+  }
+}
+
+@for $i from -1000 through 1000 {
+  .posb-#{$i}px {
+    bottom: 1px * $i !important;
+  }
+}
+
+@for $i from -1000 through 1000 {
+  .posl-#{$i}px {
+    left: 1px * $i !important;
+  }
+}
+
+@for $i from -1000 through 1000 {
+  .posr-#{$i}px {
+    right: 1px * $i !important;
+  }
+}

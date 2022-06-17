@@ -1,0 +1,35 @@
+@for $i from 0 through 100{
+
+  .pa-#{$i}p{ padding: 1%*$i 1%*$i 1%*$i 1%*$i !important; }
+
+  .px-#{$i}p{ padding: 0 1%*$i 0 1%*$i !important; }
+
+  .py-#{$i}p{ padding: 1%*$i 0 1%*$i 0 !important; }
+
+  .pl-#{$i}p{ padding: 0 0 0 1%*$i !important; }
+
+  .pb-#{$i}p{ padding: 0 0 1%*$i 0  !important; }
+
+  .pr-#{$i}p{ padding: 0 1%*$i 0  0  !important; }
+
+  .pt-#{$i}p{ padding: 1%*$i 0 0  0  !important; }
+
+}
+
+@for $i from 0 through 100{
+
+  .pa-#{$i}px{ padding: 1px*$i 1px*$i 1px*$i 1px*$i !important; }
+
+  .px-#{$i}px{ padding: 0 1px*$i 0 1px*$i !important; }
+
+  .py-#{$i}px{ padding: 1px*$i 0 1px*$i 0 !important; }
+
+  .pl-#{$i}px{ padding: 0 0 0 1px*$i !important; }
+
+  .pb-#{$i}px{ padding: 0 0 1px*$i 0  !important; }
+
+  .pr-#{$i}px{ padding: 0 1px*$i 0  0  !important; }
+
+  .pt-#{$i}px{ padding: 1px*$i 0 0  0  !important; }
+
+}

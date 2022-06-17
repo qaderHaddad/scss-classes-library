@@ -1,0 +1,24 @@
+@for $i from 0 through 100{
+
+  .w-#{$i}p {width: 1% * $i !important;}
+
+}
+
+@for $i from 0 through 100{
+
+  .w-#{$i}vw {width: 1vw * $i !important;}
+
+}
+
+@for $i from 0 through 1000{
+
+  .min-w-#{$i}px {min-width: 1px * $i !important;}
+
+}
+
+@for $i from 0 through 1000{
+  .w-#{$i}px {width: 1px * $i !important;}
+
+  .w-#{$i}px-rest {width: calc(100% - (1px * $i)) !important;}
+}
+

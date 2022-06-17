@@ -1,0 +1,36 @@
+@for $i from 0 through 100{
+
+  .h-#{$i}p {height: 1% * $i !important;}
+
+}
+
+@for $i from 0 through 1000{
+
+  .h-#{$i}px-rest {height: calc(100% - (1px * $i)) !important;}
+
+}
+
+@for $i from 0 through 100{
+
+  .h-#{$i}vw {height: 1vw * $i !important;}
+
+}
+
+@for $i from 0 through 500{
+
+  .h-#{$i}px {height: 1px * $i !important;}
+
+}
+
+@for $i from 0 through 1000{
+
+  .min-h-#{$i}px {min-height: 1px * $i !important;}
+
+}
+
+
+@media only screen and(max-width: 1000px){
+    .hmob-40px{
+      height: 40px !important;
+    }
+  }
